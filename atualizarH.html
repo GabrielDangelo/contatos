@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>atualizar</title>
+	<meta charset="utf-8">
+	<title>Consultar</title>
+	<meta charset="utf-8">
+		<style type="text/css">
+		*{
+			text-decoration: none;
+			background-size: 1379px 657px;
+		}
+		#botao{
+			
+		}
+		#botao ul{
+			list-style: none;
+		}
+		#botao ul li{
+			background-color: #12094c;
+			line-height: 50px;
+			width: 140px;
+			color: white;
+			text-align: center;
+
+		}
+		#botao ul li:hover{
+			background-color: #6658c4;
+		}
+	</style>
+</head>
+<body bgcolor="#0099cc">
+	<form method="post" action="atualizar.php">
+o valor que você quer alterar se encontra no atributo: <select name="x">
+	<option>id</option>
+	<option>nome</option>
+	<option>numero</option>
+	<option>email</option>
+</select>
+
+ digite o novo valor pelo qual você quer mudar: <input type="text" required="" name="novo"><br><br>
+ um outro atributo desse valor para ser encontrado: <select name="y">
+	<option>id</option>
+	<option>nome</option>
+	<option>numero</option>
+	<option>email</option>
+</select>
+o valor desse atributo: <input type="text" required="" name="valor">
+ <input type="submit" value="Enviar">
+
+</form>
+<div id="botao">
+<ul>
+	<a href="menuH.html"><li>voltar para o menu</li></a>
+	
+</ul>
+</div>
+</body>
+</html>

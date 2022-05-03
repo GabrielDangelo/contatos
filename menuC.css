@@ -1,0 +1,24 @@
+*{
+	text-decoration: none;
+}
+#menu{
+position: absolute;
+width: 500px;
+text-align: center;
+}
+#menu ul{
+list-style: none;
+
+}
+#menu ul li{
+background-color: #12094c;
+text-align: center;
+line-height: 80px;
+color: white;
+
+
+
+}
+#menu ul li:hover{
+	background-color: #6658c4;
+}
